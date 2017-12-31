@@ -1,3 +1,3 @@
 
-web: with_ngrok aria2c --enable-rpc --rpc-listen-all --rpc-listen-port=$AUX_PORT
+web: with_ngrok aria2c --enable-rpc --rpc-listen-all --rpc-listen-port=9090
 web: heroku-php-apache2
